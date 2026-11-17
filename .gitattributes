@@ -1,0 +1,11 @@
+# Texto siempre con saltos de línea LF (Godot y bash los esperan así)
+* text=auto eol=lf
+# Binarios: nunca tocar
+*.png binary
+*.jpg binary
+*.wav binary
+*.ogg binary
+*.glb binary
+*.blend binary
+*.hdr binary
+*.exr binary

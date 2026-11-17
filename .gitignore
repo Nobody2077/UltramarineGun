@@ -1,0 +1,40 @@
+# Icono personal (meme): solo para la tablet, NUNCA al repositorio
+godot/icono/
+# Bitácora personal (nombre, enlaces privados, rutas de esta PC)
+NOTAS_PRIVADAS.md
+# Fotos de referencia con derechos de otros
+referencias/
+# contiene la foto de referencia: no se publica
+renders/comparacion_foto_vs_modelo.png
+
+# Godot
+godot/.godot/
+godot/exportaciones/
+*.apk
+*.idsig
+
+# Blender
+*.blend1
+# de los materiales de ambientCG solo hacen falta los .jpg
+blender/texturas_descargas/**/*.blend
+blender/texturas_descargas/**/*.usdc
+blender/texturas_descargas/**/*.mtlx
+blender/texturas_descargas/**/*.tres
+
+# Descargas originales de sonido: solo se suben las grabaciones que usa
+# audio/mezclar_sonidos.sh y las licencias. El resto se vuelve a bajar (ver CREDITOS.md).
+# Truco: "**" ignora todo en cualquier subcarpeta; "!" vuelve a incluir; "!**/" deja
+# entrar a las carpetas (si una carpeta está ignorada, git no mira lo que hay dentro).
+audio/descargas/**
+!audio/descargas/**/
+!audio/descargas/**/*.txt
+!audio/descargas/gunshot_sounds/extraido/sounds/cz.wav
+!audio/descargas/gunshot_sounds/extraido/sounds/mosin.wav
+!audio/descargas/gunshot_sounds/extraido/sounds/sks.wav
+!audio/descargas/q009/extraido/q009/explosion.ogg
+!audio/descargas/q009/extraido/q009/outofammo.ogg
+!audio/descargas/q009/extraido/q009/rlauncher.ogg
+!audio/descargas/q009/extraido/q009/rlauncher2.ogg
+!audio/descargas/q009/extraido/q009/rlauncher3.ogg
+!audio/descargas/gun_reload/assaultriflereload1_0.wav
+!audio/descargas/gun_reload/shotguncock_0.wav
