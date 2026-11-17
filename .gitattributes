@@ -9,3 +9,5 @@
 *.blend binary
 *.hdr binary
 *.exr binary
+# Los scripts de Blender generan el modelo; no cuentan para el lenguaje del repo (así GitHub muestra GDScript)
+blender/** linguist-detectable=false
